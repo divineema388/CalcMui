@@ -1,0 +1,34 @@
+<resources>
+    <!-- Calculator button style -->
+    <style name="CalcButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Number button style -->
+    <style name="CalcButton.Number" parent="CalcButton">
+        <item name="backgroundTint">@color/calc_button_number</item>
+    </style>
+
+    <!-- Operator button style -->
+    <style name="CalcButton.Operator" parent="CalcButton">
+        <item name="backgroundTint">@color/calc_button_operator</item>
+    </style>
+
+    <!-- Special button style -->
+    <style name="CalcButton.Special" parent="CalcButton">
+        <item name="backgroundTint">@color/calc_button_clear</item>
+    </style>
+
+    <!-- Display text style -->
+    <style name="CalcDisplayText">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/calc_text_display</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>

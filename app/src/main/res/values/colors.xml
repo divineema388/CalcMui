@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Calculator specific colors -->
+    <color name="calc_background">#1E1E1E</color>
+    <color name="calc_display">#252525</color>
+    <color name="calc_button_number">#616161</color>
+    <color name="calc_button_operator">#FF5722</color>
+    <color name="calc_button_clear">#757575</color>
+    <color name="calc_button_equal">#FF9800</color>
+    <color name="calc_text_display">#FFFFFF</color>
+    <color name="calc_text_button">#FFFFFF</color>
+    <color name="nav_header_background">#FF5722</color>
+    <color name="nav_menu_background">#303030</color>
+    <color name="nav_menu_text">#FFFFFF</color>
+</resources>
